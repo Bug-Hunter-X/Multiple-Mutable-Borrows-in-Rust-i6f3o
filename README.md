@@ -1,0 +1,2 @@
+# Multiple Mutable Borrows in Rust
+This example demonstrates a common error in Rust: attempting to create multiple mutable borrows of the same variable.  Rust's borrow checker prevents this to ensure memory safety and avoid data races. The solution involves refactoring the code to avoid these multiple mutable borrows.
